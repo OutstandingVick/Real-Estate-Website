@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap');
+
+* {
+ /* font-family: 'Averia Serif Libre', cursive; */
+ margin: 0;
+ box-sizing: border-box;
+ /* background-color: #b3efb2; */
+ /* outline: 2px solid #27233A; */
+}
+
+header {
+ position: fixed;
+ background-color: #222;
+ width: 100%;
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 3rem;
+ color: #D8E1E9;
+ height: 40px;
+}
+nav h1 {
+ font-family: 'Zen Tokyo Zoo', cursive;
+ padding-left: 0px;
+}
+
+nav ul {
+ display: flex;
+}
+
+nav li {
+ list-style: none;
+ margin: 0 1rem;
+}
+
+nav a {
+ text-decoration: none;
+ font-weight: 700;
+ color: #D8E1E9;
+}
+
+nav a .bun {
+ text-decoration: none;
+ font-weight: 700;
+ color: #235789;
+}
+
+/* About Us Section Styles */
+#about {
+    background-color: #D8E1E9;
+    background-image: url(./Images/buildingplan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+    padding: 20px 0;
+  }
+
+  .about .hidden{
+    visibility: hidden;
+}
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-content ul li {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the styles as needed for your design preferences */
+  
